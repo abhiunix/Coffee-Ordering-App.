@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xlif="http://schemas.android.com/tools">
+    <string name="app_name">CoffeeOrderApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Header text for tje list of toppings [Char Limit=20]-->
+
+    <string name="toppings">सिरा</string>
+    <!--Thank you message for the order summary . [CHAR LIMIT=NONE]-->
+    <string name="thank_you">धन्यवाद</string>
+
+    <!-- Name for the order summary. It will be shown in  the format of " Name: Any"
+       Where Any is the user's name. [CHAR LIMIT=NONE]-->
+
+    <string name="order_summary_name">नाम: <xlif:g id="name" example = "Any">%s </xlif:g></string>
+
+</resources>

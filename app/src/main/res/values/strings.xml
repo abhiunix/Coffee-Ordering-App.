@@ -1,0 +1,26 @@
+<resources xmlns:xlif="http://schemas.android.com/tools">
+    <string name="app_name">CCD APP</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Header text for tje list of toppings [Char Limit=20]-->
+
+    <string name="toppings">Toppings</string>
+    <!--Thank you message for the order summary . [CHAR LIMIT=NONE]-->
+    <string name="thank_you">Thank You!</string>
+
+    <!-- Name for the order summary. It will be shown in  the format of " Name: Any"
+       Where Any is the user's name. [CHAR LIMIT=NONE]-->
+
+    <string name="order_summary_name">Name: <xlif:g example="Any" id="name">%s </xlif:g></string>
+
+    <!-- Address for the order summary. It will be shown in  the format of " Address: Any"
+       Where Any is the user's Address. [CHAR LIMIT=NONE]-->
+
+    <string name="order_summary_address">Address: <xlif:g example="Any" id="address">%s </xlif:g></string>
+
+    <!-- Phone for the order summary. It will be shown in  the format of " Phone: Any"
+       Where Any is the user's Phone. [CHAR LIMIT=NONE]-->
+    <string name="order_summary_phone">Mobile No: <xlif:g example="Any" id="phone">%s </xlif:g></string>
+
+
+</resources>
